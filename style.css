@@ -1,0 +1,398 @@
+.body {
+  background-image: url(image/backgroun.jpg);
+}
+
+
+.header {
+  padding: 5vh;
+}
+
+/*
+.categories .col-lg-2 div {
+  height: 65vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 30px;
+  transition: all .3s;
+}
+
+.categories .col-lg-2 a {
+  width: 100%;
+  display: block;
+  background-color: #373D34;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  font-family: 'FuturaDemiC', sans-serif;
+  font-size: 24px;
+  transition: all .3s;
+
+}
+
+.column {
+  padding-right: 20px !important;
+  padding-left: 20px !important;
+}
+
+.categories .col-lg-2:hover div {
+  margin-bottom: 0px;
+  height: 67vh;
+
+}
+
+.categories .col-lg-2 a:hover {
+  background-color: #4B5048;
+
+}
+
+.categories {
+  margin-bottom: 160px;
+}
+*/
+/*
+.column {
+  padding-right: 20px !important;
+  padding-left: 20px !important;
+}
+*/
+
+.main-container-image {
+  display: flex;
+}
+
+.container-slider {
+  width: 100%;
+  white-space: nowrap;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  -webkit-overflow-scrolling: touch;
+}
+
+.container-slider_into {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  display: flex;
+  margin-bottom: 180px;
+}
+
+.cards {
+  width: 238px;
+  margin-right: 42px;
+}
+
+.link {
+  width: 237px;
+  display: block;
+  background-color: #373D34;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  font-family: 'FuturaDemiC', sans-serif;
+  font-size: 24px;
+  transition: all .3s;
+}
+
+.link:hover {
+  background-color: #4B5048;
+}
+
+.image-container {
+  width: 237px;
+  height: 510px;
+  display: inline-block;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 30px;
+  transition: all .3s;
+}
+
+.image-container:hover {
+  margin-bottom: 0px;
+}
+
+.black-square {
+  width: 18px;
+  height: 18px;
+  background: #373D34;
+  align-items: center;
+  display: inline-block;
+  margin-right: 30px;
+}
+
+.about-right h3 {
+  font-family: 'FuturaDemiC', sans-serif;
+  font-size: 40px;
+  line-height: 47px;
+}
+
+.about-text {
+  font-family: 'FuturaDemiC', sans-serif;
+  font-size: 40px;
+  line-height: 0.5;
+  padding-left: 28px;
+  align-items: center;
+}
+
+.text-botton {
+  margin-bottom: 34px;
+}
+
+.about-right {
+  padding: 8.33vw !important;
+  background-color: #FFF;
+}
+
+.about-left {
+  background-color: #373D34;
+  padding-left: 8.33vw !important;
+}
+
+.about-left div {
+  height: 100%;
+  width: 100%;
+  background-image: url(image/Rectangle%209.5.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.about-text-right {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 32px;
+}
+
+.why-we-title {
+  font-family: 'FuturaDemiC', sans-serif;
+  font-size: 40px;
+  line-height: 47px;
+  margin-bottom: 40px;
+}
+
+.why-me-main {
+  padding: 8.33vw !important;
+}
+
+.big-experience {
+  font-family: 'FuturaDemiC', sans-serif;
+  font-size: 24px;
+  line-height: 28px;
+  margin-bottom: 20px;
+}
+
+.empty-img {
+  height: 358px;
+  background-color: #F0F0F0;
+  margin-bottom: 20px;
+}
+
+.border-text {
+  border-left: 3px solid #F0F0F0;
+}
+
+.text-benefits {
+  padding-left: 35px;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 32px;
+}
+
+.main-ask-me {
+  background-color: #373D34;
+  padding: 80px 8.33vw;
+}
+
+input[type=text],
+input[type=email],
+input[type=number] {
+  width: 100%;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #fff;
+  margin-bottom: 34px;
+  outline: none;
+  color: #ffffff;
+  font-family: 'FuturaDemiC', sans-serif;
+  font-size: 20px;
+  line-height: 23px;
+}
+
+.group {
+  position: relative;
+  margin-bottom: 45px;
+}
+
+input {
+  font-size: 18px;
+  padding: 10px 10px 10px 5px;
+  display: block;
+  width: 300px;
+  border: none;
+  border-bottom: 1px solid #757575;
+}
+
+input:focus {
+  outline: none;
+}
+
+label {
+  color: #FFFFFF;
+  font-family: 'FuturaLightC', sans-serif;
+  font-size: 20px;
+  line-height: 22px;
+  position: absolute;
+  pointer-events: none;
+  left: 5px;
+  top: 10px;
+  transition: 0.2s ease all;
+  -moz-transition: 0.2s ease all;
+  -webkit-transition: 0.2s ease all;
+}
+
+
+input:focus ~ label,
+input:valid ~ label {
+  top: -20px;
+  font-size: 20px;
+  line-height: 22px;
+}
+
+.line-input {
+  width: 100%;
+}
+
+.submit {
+  width: 237px;
+  height: 68px;
+  display: block;
+  background-color: #ffffff;
+  color: #373D34;
+  padding: 20px;
+  text-align: center;
+  font-family: 'FuturaDemiC', sans-serif;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.text-title {
+  width: 70%;
+}
+
+.number-style {
+  font-family: 'FuturaLightC', sans-serif;
+  font-size: 20px;
+  line-height: 34px;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.col-6 h4,
+.col-12 h4 {
+  font-family: 'FuturaDemiC', sans-serif;
+  font-size: 24px;
+  line-height: 34px;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+
+.retreat {
+  margin-bottom: 66px;
+}
+
+.copyright {
+  padding-top: 20px;
+}
+
+@media screen and (max-width: 1199px) {
+  .categories .col-2 div {
+    margin-bottom: 15px;
+  }
+
+  .categories .col-2 a {
+    font-size: 20px;
+  }
+
+  .column {
+    padding-right: 7px !important;
+    padding-left: 7px !important;
+  }
+
+  .logo {
+    width: 83px;
+    height: 16.95px;
+  }
+
+  .about-right h3,
+  .why-we-title {
+    font-size: 26px;
+    line-height: 30px;
+  }
+
+  .about-text-right,
+  .text-benefits {
+    font-size: 14px;
+    line-height: 26px;
+  }
+
+  .big-experience {
+    font-size: 20px;
+    line-height: 23px;
+    margin-bottom: 10px;
+  }
+
+  .empty-img {
+    height: 248px;
+    margin-bottom: 20px;
+  }
+
+  input[type=text],
+  input[type=email],
+  input[type=number] {
+    font-size: 16px;
+    line-height: 18px;
+  }
+
+  .col-6 h4,
+  .col-12 h4 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+
+  .number-style {
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .main-ask-me {
+    padding-right: 0;
+  }
+
+  .about-left {
+    padding-left: 0 !important;
+    height: 700px;
+  }
+
+  .background-colorz {
+    padding-right: 0 !important;
+  }
+
+  .text-title {
+    width: 80%;
+  }
+
+  .submit {
+    margin-top: 40px;
+    margin-bottom: 60px;
+    width: 237px;
+    height: 68px;
+  }
+
+
+}
